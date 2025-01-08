@@ -1,0 +1,10 @@
+[package]
+name = "recording"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+cpal = "0.15.3"
+hound = "3.5.1"
+anyhow = "1.0.95"
+thiserror = "2.0.9"
