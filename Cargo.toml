@@ -4,7 +4,9 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+anyhow = "1.0.95"
 cpal = "0.15.3"
 hound = "3.5.1"
-anyhow = "1.0.95"
+nix = { version = "0.29", features = ["fs"] }
+reqwest = { version = "0.12.12", features = ["blocking"] }
 thiserror = "2.0.9"
